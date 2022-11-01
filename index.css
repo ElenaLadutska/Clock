@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Pixelate';
+  src: url(./font/sf-pixelate-shaded-bold.ttf)
+}
+
+:root {
+  --black: #000;
+  --torch-red: #ff033e;
+}
+body {
+  background-color: var(--black);
+  color: var(--torch-red);
+  font-family: 'Pixelate';
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  padding: 15px;
+  border: 1px solid var(--torch-red);
+  display: flex;
+  font-size: 4em;
+}
+
+.content div {
+  padding: 5px;
+}
